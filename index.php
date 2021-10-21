@@ -8,8 +8,19 @@
     class Movie {
         public $name;
         public $director;
-        public $time;
+        public $duratin;
         public $relisedate;
         public $writers;
         public $tipe;
+
+        function __construct($_name,$_director,$_duratin,$_relisedate,$_writers,$_tipe){
+            
+            $this->name = $_name;
+            $this->director = $_director;
+            $this->duratin = $_duratin;
+            $this->relisedate = $_relisedate;
+            $this->writers = $_writers;
+            $this->tipe = $_tipe;
+
+        }
     }
